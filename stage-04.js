@@ -125,3 +125,13 @@ let answer = input("Please enter the number of the habitat you would like to vie
 
 let arr = [camel, lion, deer, goose, bat, rabbit];
 
+let fin = `
+---
+You've reached the end of the program. To check another habitat, please restart the watcher.`
+
+do {
+  console.log(arr[answer]);
+  answer = input("Please enter the number of the habitat you would like to view:");
+} while (answer != "exit");
+
+console.log(fin);
