@@ -7,6 +7,7 @@
     - [1: rush into print](#1-rush-into-print)
     - [2: show me an animal](#2-show-me-an-animal)
     - [3: whats inside](#3-whats-inside)
+    - [4: sustainable care](#4-sustainable-care)
 
 ## learning
 this project is aimed at our beginners. it helps you understand some syntax basics and learn how to work with variables, data storage types such as lists, and while loops.
@@ -152,20 +153,69 @@ you've reached the end of the program. to check another habitat, please restart 
 
 </details>
 
+### 4: sustainable care
+<details>
+<summary>finally, your program is able to work for as long as needed!</summary>
+
+#### 4.1 description
+now it's time to make our project user-friendly. in this final stage, you'll make your software ready for the zoo staff to use. your program should understand the habitat numbers, show the animals, and be able to work continuously without having to be restarted.
+
+#### 4.2 objectives
+your tasks at this point:
+
+1. your program should repeat the behavior from the previous stage, but now in a loop.
+2. do not forget to include an exit opportunity: inputting `exit` should end the program.
+3. when the program is done running, it should print: `see you later!`
+
+#### 4.3 examples
+the greater-than symbol followed by a space (> ) represents the user input. note that it's not part of the input.
+
+the final version of the program should run like this:
+
+example 1
+```
+please enter the number of the habitat you would like to view: > 3
+
+switching on the camera in the goose habitat...
+
+                                    _
+                                ,-"" "".
+                              ,'  ____  `.
+                            ,'  ,'    `.  `._
+   (`.         _..--.._   ,'  ,'        \    \
+  (`-.\    .-""        ""'   /          (  d _b
+ (`._  `-"" ,._             (            `-(   \
+ <_  `     (  <`<            \              `-._\
+  <`-       (__< <           :
+   (__        (_<_<          ;
+    `------------------------------------------
+the goose is staring intently at you... maybe it's time to change the channel?
+please enter the number of the habitat you would like to view: > 1
+
+switching on the camera in the lion habitat...
+                                               ,w.
+                                             ,YWMMw  ,M  ,
+                        _.---.._   __..---._.'MMMMMw,wMWmW,
+                   _.-""        '''           YP"WMMMMMMMMMb,
+                .-' __.'                   .'     MMMMW^WMMMM;
+    _,        .'.-'"; `,       /`     .--""      :MMM[==MWMW^;
+ ,mM^"     ,-'.'   /   ;      ;      /   ,       MMMMb_wMW"  @\
+,MM:.    .'.-'   .'     ;     `\    ;     `,     MMMMMMMW `"=./`-,
+WMMm__,-'.'     /      _.\      F'''-+,,   ;_,_.dMMMMMMMM[,_ / `=_}
+"^MP__.-'    ,-' _.--""   `-,   ;       \  ; ;MMMMMMMMMMW^``; __|
+           /   .'            ; ;         )  )`{  \ `"^W^`,   \  :
+          /  .'             /  (       .'  /     Ww._     `.  `"
+         /  Y,              `,  `-,=,_{   ;      MMMP`""-,  `-._.-,
+        (--, )                `,_ / `) \/"")      ^"      `-, -;"\:
+the lion is roaring!
+please enter the number of the habitat you would like to view: > exit
+see you later!
+```
+
+</details>
+
 [<<](https://github.com/eucarizan/front-end/blob/main/README.md)
 <!--
 :%s/\(Sample \(Input\|Output\) \d:\)\n\(.*\)/```\r\r**\1**\r```\3/gc
-
-### 0: 
-<details>
-<summary></summary>
-
-#### 0.1 description
-
-#### 0.2 objectives
-
-#### 0.3 examples
-
-</details>
 -->
 
