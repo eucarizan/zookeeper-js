@@ -123,3 +123,10 @@ It looks like we will soon have more rabbits!`;
 
 let answer = input("Please enter the number of the habitat you would like to view:");
 
+let arr = [camel, lion, deer, goose, bat, rabbit];
+
+let fin = `
+---
+You've reached the end of the program. To check another habitat, please restart the watcher.`
+
+console.log(arr[answer] + fin);
