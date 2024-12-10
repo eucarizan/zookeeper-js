@@ -5,6 +5,7 @@
   - [about](#about)
   - [stages](#stages)
     - [1: rush into print](#1-rush-into-print)
+    - [2: show me an animal](#2-show-me-an-animal)
 
 ## learning
 this project is aimed at our beginners. it helps you understand some syntax basics and learn how to work with variables, data storage types such as lists, and while loops.
@@ -33,6 +34,43 @@ let's check on the animals...
 the deer looks fine.
 the bat looks happy.
 the lion looks healthy.
+```
+
+</details>
+
+### 2: show me an animal
+<details>
+<summary>show the zookeeper an image of her ward</summary>
+
+#### 2.1 description
+one of the most important parts of working with animals is keeping an eye on them. we need to see the animals on the screen to know how they are doing, right? now we are ready to print something awesome: an image of an animal!
+
+#### 2.2 objectives
+for the second stage, you will need to develop an animal printer. your program should display the animal identified in the code field.
+
+#### 2.3 examples
+your output should contain the following ascii image:
+
+```
+switching on the camera in the camel habitat...
+ ___.-''''-.
+/___  @    |
+',,,,.     |         _.'''''''._
+     '     |        /           \
+     |     \    _.-'             \
+     |      '.-'                  '-.
+     |                               ',
+     |                                '',
+      ',,-,                           ':;
+           ',,| ;,,                 ,' ;;
+              ! ; !'',,,',',,,,'!  ;   ;:
+             : ;  ! !       ! ! ;  ;   :;
+             ; ;   ! !      ! !  ; ;   ;,
+            ; ;    ! !     ! !   ; ;
+            ; ;    ! !    ! !     ; ;
+           ;,,      !,!   !,!     ;,;
+           /_I      L_I   L_I     /_I
+look at that! our little camel is sunbathing!
 ```
 
 </details>
